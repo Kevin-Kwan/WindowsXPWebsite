@@ -5,4 +5,5 @@ Note: This repository is in maintenance mode. This means we focus on keeping the
 # How to Install/Modify
 It should be pretty explanatory, but you edit the index.html file to your liking by replacing the icons and social links, positioning them wherever you want, etc.
 Add more pages, scripts, and custom css shouldn't create any conflicts, just keep track of the file names that the original index.html references.
+Then, you can host all these files on a web server.
 Other than that, enjoy!
