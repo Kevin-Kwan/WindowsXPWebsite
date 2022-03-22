@@ -1,0 +1,155 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+bodyold{height: 100%;
+	width: 100%;
+	left:0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+	animation: rainbow 18s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}}
+
+body {
+	background: url('img/bliss.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0px;
+	min-height: 100%;
+	width: 100%;
+}
+			
+.icon {
+	min-width: 108px;
+	padding: 11px;
+	display: inline-block;
+	text-align: center;
+	font-family: Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 12px;
+	color: white;
+	text-shadow: 2px 2px 2px black;	
+	font-smooth: never;
+	-webkit-font-smoothing : none;	
+}
+			
+.iconrow {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	cursor: default;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.shortcut {
+	position: absolute;
+	min-width: 58px;
+	max-width: 58px;
+}
+.container .gallery a img {
+	float: left;
+	width: 20%;
+	height: auto;
+	border: 2px solid #fff;
+	-webkit-transition: -webkit-transform .15s ease;
+	-moz-transition: -moz-transform .15s ease;
+	-o-transition: -o-transform .15s ease;
+	-ms-transition: -ms-transform .15s ease;
+	transition: transform .15s ease;
+	position: relative;
+  }
+  
+  .container .gallery a:hover img {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	z-index: 5;
+  }
+  
+  .clear {
+	clear: both;
+	float: none;
+	width: 100%;
+  }
+
+img.icon {
+	
+	min-width: 50px;
+	max-width: 50px;
+	padding: 6px;
+}
+
+a {
+	cursor: default;
+}
+.wrapper { 
+	height: 100%;
+	width: 100%;
+	left:0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+	animation: rainbow 18s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+	  0%{background-position:0% 82%}
+	  50%{background-position:100% 19%}
+	  100%{background-position:0% 82%}
+  }
